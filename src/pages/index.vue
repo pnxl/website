@@ -16,6 +16,13 @@
         full-stack development. Make yourself comfortable, and I hope you enjoy
         your stay!
       </p>
+      <router-link
+        to="/about"
+        class="flex w-fit gap-1 transition hover:text-indigo-700 dark:hover:text-indigo-200"
+      >
+        <span class="my-auto underline">more about me</span>
+        <IconArrowRight class="my-auto text-sm" />
+      </router-link>
     </section>
     <section id="what-i-do" class="flex flex-col gap-4">
       <div class="flex gap-2">
@@ -216,6 +223,7 @@ import IconGit from "virtual:icons/mdi/git";
 
 import IconTools from "virtual:icons/mdi/tools";
 import IconSourceBranch from "virtual:icons/mdi/source-branch";
+import IconArrowRight from "virtual:icons/mdi/arrow-right";
 
 const randomiseGreeting = () => {
   const greetings: Array<string> = [
