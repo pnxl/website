@@ -133,7 +133,7 @@
           <div class="flex gap-4">
             <div class="flex gap-2">
               <div
-                class="my-auto aspect-square h-fit rounded-full bg-green-500 p-1"
+                class="my-auto aspect-square h-fit rounded-full bg-emerald-500 p-1"
               ></div>
               <span class="my-auto text-sm">Vue</span>
             </div>
@@ -153,7 +153,7 @@
           <div class="flex gap-4">
             <div class="flex gap-2">
               <div
-                class="my-auto aspect-square h-fit rounded-full bg-green-500 p-1"
+                class="my-auto aspect-square h-fit rounded-full bg-emerald-500 p-1"
               ></div>
               <span class="my-auto text-sm">Vue</span>
             </div>
