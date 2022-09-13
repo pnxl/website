@@ -5,14 +5,15 @@
       class="flex flex-col justify-center gap-1 md:flex-row md:justify-between md:gap-0"
     >
       <div class="flex flex-col gap-1">
-        <div class="flex justify-center gap-1 font-semibold">
+        <div class="flex justify-center gap-1 font-semibold md:justify-start">
           <p class="my-auto">Made</p>
           <p class="my-auto">with</p>
           <IconHeart class="my-auto text-indigo-600 dark:text-indigo-400" />
           <p class="my-auto">by</p>
           <p class="my-auto">Jason.</p>
         </div>
-        <span class="text-center text-sm text-gray-600 dark:text-gray-400"
+        <span
+          class="text-center text-sm text-gray-600 dark:text-gray-400 md:text-left"
           >Copyright © 2022 Pix3l_</span
         >
       </div>
