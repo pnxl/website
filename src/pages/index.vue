@@ -48,53 +48,63 @@
         languages I've had experience with in the past and/or currently use.
       </p>
       <div class="grid justify-between gap-4 md:grid-cols-4">
-        <div class="flex gap-2">
+        <div class="flex gap-2 transition hover:text-orange-500">
           <IconLanguageHtml5 class="my-auto text-xl" />
-          <span class="my-auto">HTML</span>
+          <span class="my-auto text-gray-800 dark:text-gray-200">HTML</span>
         </div>
-        <div class="flex gap-2">
+        <div class="flex gap-2 transition hover:text-blue-400">
           <IconLanguageCss3 class="my-auto text-xl" />
-          <span class="my-auto">CSS</span>
+          <span class="my-auto text-gray-800 dark:text-gray-200">CSS</span>
         </div>
-        <div class="flex gap-2">
+        <div class="flex gap-2 transition hover:text-yellow-500">
           <IconLanguageJavascript class="my-auto text-xl" />
-          <span class="my-auto">JavaScript</span>
+          <span class="my-auto text-gray-800 dark:text-gray-200"
+            >JavaScript</span
+          >
         </div>
-        <div class="flex gap-2">
+        <div class="flex gap-2 transition hover:text-blue-500">
           <IconLanguageTypescript class="my-auto text-xl" />
-          <span class="my-auto">TypeScript</span>
+          <span class="my-auto text-gray-800 dark:text-gray-200"
+            >TypeScript</span
+          >
         </div>
-        <div class="flex gap-2">
+        <div class="flex gap-2 transition hover:text-lime-500">
           <IconNodejs class="my-auto text-xl" />
-          <span class="my-auto">Node.js</span>
+          <span class="my-auto text-gray-800 dark:text-gray-200">Node.js</span>
         </div>
-        <div class="flex gap-2">
+        <div class="flex gap-2 transition hover:text-teal-500">
           <IconTailwind class="my-auto text-xl" />
-          <span class="my-auto">Tailwind CSS</span>
+          <span class="my-auto text-gray-800 dark:text-gray-200"
+            >Tailwind CSS</span
+          >
         </div>
-        <div class="flex gap-2">
+        <div class="flex gap-2 transition hover:text-sky-500">
           <IconReact class="my-auto text-xl" />
-          <span class="my-auto">React</span>
+          <span class="my-auto text-gray-800 dark:text-gray-200">React</span>
         </div>
-        <div class="flex gap-2">
+        <div class="flex gap-2 transition hover:text-emerald-500">
           <IconVuejs class="my-auto text-xl" />
-          <span class="my-auto">Vue</span>
+          <span class="my-auto text-gray-800 dark:text-gray-200">Vue</span>
         </div>
-        <div class="flex gap-2">
+        <div class="flex gap-2 transition hover:text-blue-600">
           <IconLanguagePython class="my-auto text-xl" />
-          <span class="my-auto">Python</span>
+          <span class="my-auto text-gray-800 dark:text-gray-200">Python</span>
         </div>
-        <div class="flex gap-2">
+        <div
+          class="flex gap-2 transition hover:text-slate-500 dark:hover:text-slate-400"
+        >
           <IconBash class="my-auto text-xl" />
-          <span class="my-auto">Bash</span>
+          <span class="my-auto text-gray-800 dark:text-gray-200">Bash</span>
         </div>
-        <div class="flex gap-2">
+        <div class="flex gap-2 transition hover:text-cyan-500">
           <IconPowershell class="my-auto text-xl" />
-          <span class="my-auto">PowerShell</span>
+          <span class="my-auto text-gray-800 dark:text-gray-200"
+            >PowerShell</span
+          >
         </div>
-        <div class="flex gap-2">
+        <div class="flex gap-2 transition hover:text-orange-600">
           <IconGit class="my-auto text-xl" />
-          <span class="my-auto">Git</span>
+          <span class="my-auto text-gray-800 dark:text-gray-200">Git</span>
         </div>
       </div>
     </section>
