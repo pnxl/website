@@ -104,7 +104,7 @@
       <div class="grid justify-between gap-4 md:grid-cols-2">
         <a
           href="https://github.com/pnxl/website"
-          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
         >
           <div class="flex flex-col gap-2">
             <h4 class="font-semibold">website</h4>
@@ -124,7 +124,7 @@
         </a>
         <a
           href="https://github.com/trobonox/pokaimon"
-          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
         >
           <div class="flex flex-col gap-2">
             <h4 class="font-semibold">pokaimon</h4>
@@ -144,7 +144,7 @@
         </a>
         <a
           href="https://github.com/pnxl/d.js"
-          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
         >
           <div class="flex flex-col gap-2">
             <h4 class="font-semibold">d.js</h4>
@@ -161,7 +161,7 @@
         </a>
         <a
           href="https://github.com/pnxl/start"
-          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
         >
           <div class="flex flex-col gap-2">
             <div class="flex flex-col gap-1">
