@@ -167,8 +167,10 @@
             <div class="flex flex-col gap-1">
               <h4 class="font-semibold">start</h4>
               <div class="flex gap-1">
-                <IconSourceBranch class="my-auto text-sm text-gray-400" />
-                <p class="my-auto text-sm text-gray-400">
+                <IconSourceBranch
+                  class="my-auto text-sm text-gray-600 dark:text-gray-400"
+                />
+                <p class="my-auto text-sm text-gray-600 dark:text-gray-400">
                   Forked from trobonox/startpage
                 </p>
               </div>
