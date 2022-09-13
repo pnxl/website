@@ -4,7 +4,7 @@
     <section id="introduction" class="flex flex-col gap-8">
       <div class="flex flex-col gap-6">
         <div class="flex gap-4 text-5xl">
-          <IconScriptText class="my-auto" />
+          <IconScriptText class="my-auto hidden md:block" />
           <h1 class="my-auto w-fit font-bold">Licenses and Credits</h1>
         </div>
       </div>
@@ -15,7 +15,7 @@
     </section>
     <section id="libraries" class="flex flex-col gap-4">
       <h2 class="my-auto w-fit text-4xl font-bold">License Notices</h2>
-      <div class="grid grid-cols-2 gap-4">
+      <div class="grid gap-4 md:grid-cols-2">
         <div
           class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 dark:border-gray-700"
         >
@@ -56,7 +56,7 @@
     </section>
     <section id="artwork" class="flex flex-col gap-4">
       <h2 class="my-auto w-fit text-4xl font-bold">Artwork Credits</h2>
-      <div class="grid grid-cols-2 gap-4">
+      <div class="grid gap-4 md:grid-cols-2">
         <div
           class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 dark:border-gray-700"
         >
