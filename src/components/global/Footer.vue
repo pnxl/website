@@ -10,7 +10,7 @@
         <h6 class="my-auto">Jason.</h6>
       </div>
       <span class="text-sm text-gray-600 dark:text-gray-400"
-        >Copyright (c) 2022 Pix3l_</span
+        >Copyright © 2022 Pix3l_</span
       >
     </div>
   </div>
