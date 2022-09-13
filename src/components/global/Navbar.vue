@@ -9,7 +9,7 @@
             : `underline transition hover:text-indigo-700 dark:hover:text-indigo-200`
         "
       >
-        /index
+        ~/index
       </router-link>
       <router-link
         to="/about"
@@ -19,7 +19,7 @@
             : `underline transition hover:text-indigo-700 dark:hover:text-indigo-200`
         "
       >
-        /about
+        ~/about
       </router-link>
     </div>
   </div>
