@@ -27,9 +27,13 @@
         </a>
         <router-link
           to="licenses"
-          class="flex w-full justify-center gap-1 text-sm text-gray-600 transition hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-300 md:justify-end"
+          :class="
+            $route.path.startsWith('/licenses')
+              ? `flex w-full cursor-default justify-center gap-1 text-sm text-indigo-600 dark:text-indigo-300 md:justify-end`
+              : `flex w-full justify-center gap-1 text-sm text-gray-600 underline transition hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-300 md:justify-end`
+          "
         >
-          <p class="underline">Licenses and credits</p>
+          <p>Licenses and credits</p>
           <IconArrowRight class="my-auto hidden md:block" />
         </router-link>
       </div>
