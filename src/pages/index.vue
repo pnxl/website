@@ -10,7 +10,7 @@
           {{ randomiseIntro() }}
         </h1>
       </div>
-      <p class="text-grey-700 font-medium dark:text-gray-300">
+      <p class="font-medium text-gray-700 dark:text-gray-300">
         Welcome to my small cozy corner of the internet! I'm a 13-year-old guy
         based in Indonesia, and is a self-taught developer. Currently, pursuing
         full-stack development. Make yourself comfortable, and I hope you enjoy
@@ -29,7 +29,7 @@
         <IconThoughtBubble class="my-auto text-3xl" />
         <h2 class="my-auto text-4xl font-semibold">What do I do?</h2>
       </div>
-      <p class="text-grey-700 dark:text-gray-300">
+      <p class="text-gray-700 dark:text-gray-300">
         I like everything that involves technology; from designing and
         programming different kinds software, to understanding how the internet
         works together, to cybersecurity, systems, and so much more. I strive to
@@ -42,7 +42,7 @@
         <IconAtomVariant class="my-auto text-3xl" />
         <h2 class="my-auto text-4xl font-semibold">Technologies</h2>
       </div>
-      <p class="text-grey-700 dark:text-gray-300">
+      <p class="text-gray-700 dark:text-gray-300">
         I use a wide range of tools to streamline my development process and
         increase the quality of my code. Below is a list of technologies and
         languages I've had experience with in the past and/or currently use.
@@ -103,7 +103,7 @@
         <IconTools class="my-auto text-3xl" />
         <h2 class="my-auto text-4xl font-semibold">My projects</h2>
       </div>
-      <p class="text-grey-700 dark:text-gray-300">
+      <p class="text-gray-700 dark:text-gray-300">
         In my free time, I like to code. I like working on open-source projects
         that I've published on GitHub, or that I've contributed to other
         projects!
