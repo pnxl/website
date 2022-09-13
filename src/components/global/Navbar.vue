@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-20 w-full">
+  <div class="mb-16 w-full">
     <div class="flex gap-8 font-mono">
       <router-link
         to="/"
