@@ -91,13 +91,114 @@
         </div>
       </div>
     </section>
+    <section id="projects" class="flex flex-col gap-4">
+      <div class="flex gap-2">
+        <IconTools class="my-auto text-3xl" />
+        <h2 class="my-auto text-4xl font-semibold">My projects</h2>
+      </div>
+      <p class="text-grey-700 dark:text-gray-300">
+        In my free time, I like to code. I like working on open-source projects
+        that I've published on GitHub, or that I've contributed to other
+        projects!
+      </p>
+      <div class="grid justify-between gap-4 md:grid-cols-2">
+        <a
+          href="https://github.com/pnxl/website"
+          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+        >
+          <div class="flex flex-col gap-2">
+            <h4 class="font-semibold">website</h4>
+            <p class="text-ellipsis text-sm">
+              This repository contains this website, the one you're currently
+              viewing!
+            </p>
+          </div>
+          <div class="flex gap-4">
+            <div class="flex gap-2">
+              <div
+                class="my-auto aspect-square h-fit rounded-full bg-green-500 p-1"
+              ></div>
+              <span class="my-auto text-sm">Vue</span>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://github.com/trobonox/pokaimon"
+          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+        >
+          <div class="flex flex-col gap-2">
+            <h4 class="font-semibold">pokaimon</h4>
+            <p class="text-ellipsis text-sm">
+              Genshin Impact themed collectible game with mechanics similar to
+              Pokemon.
+            </p>
+          </div>
+          <div class="flex gap-4">
+            <div class="flex gap-2">
+              <div
+                class="my-auto aspect-square h-fit rounded-full bg-green-500 p-1"
+              ></div>
+              <span class="my-auto text-sm">Vue</span>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://github.com/pnxl/d.js"
+          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+        >
+          <div class="flex flex-col gap-2">
+            <h4 class="font-semibold">d.js</h4>
+            <p class="text-ellipsis text-sm">template for d.js bots</p>
+          </div>
+          <div class="flex gap-4">
+            <div class="flex gap-2">
+              <div
+                class="my-auto aspect-square h-fit rounded-full bg-yellow-500 p-1"
+              ></div>
+              <span class="my-auto text-sm">JavaScript</span>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://github.com/pnxl/start"
+          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+        >
+          <div class="flex flex-col gap-2">
+            <div class="flex flex-col gap-1">
+              <h4 class="font-semibold">start</h4>
+              <div class="flex gap-1">
+                <IconSourceBranch class="my-auto text-sm text-gray-400" />
+                <p class="my-auto text-sm text-gray-400">
+                  Forked from trobonox/startpage
+                </p>
+              </div>
+            </div>
+            <p class="text-ellipsis text-sm">
+              custom startpage with useful links
+            </p>
+          </div>
+          <div class="flex gap-4">
+            <div class="flex gap-2">
+              <div
+                class="my-auto aspect-square h-fit rounded-full bg-orange-500 p-1"
+              ></div>
+              <span class="my-auto text-sm">HTML</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
   </main>
+  <Footer />
 </template>
 
 <script setup lang="ts">
 import Navbar from "@/components/global/Navbar.vue";
+import Footer from "@/components/global/Footer.vue";
+
 import IconThoughtBubble from "virtual:icons/mdi/thought-bubble";
 import IconAtomVariant from "virtual:icons/mdi/atom-variant";
+
 import IconLanguageHtml5 from "virtual:icons/mdi/language-html5";
 import IconLanguageCss3 from "virtual:icons/mdi/language-css3";
 import IconLanguageJavascript from "virtual:icons/mdi/language-javascript";
@@ -110,6 +211,9 @@ import IconLanguagePython from "virtual:icons/mdi/language-python";
 import IconBash from "virtual:icons/mdi/bash";
 import IconPowershell from "virtual:icons/mdi/powershell";
 import IconGit from "virtual:icons/mdi/git";
+
+import IconTools from "virtual:icons/mdi/tools";
+import IconSourceBranch from "virtual:icons/mdi/source-branch";
 
 const randomiseGreeting = () => {
   const greetings: Array<string> = [
