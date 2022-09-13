@@ -11,16 +11,6 @@
       >
         /index
       </router-link>
-      <router-link
-        to="/about"
-        :class="
-          $route.path.startsWith('/about')
-            ? `cursor-default font-semibold text-indigo-600 dark:text-indigo-300`
-            : `transition hover:text-indigo-700 hover:underline dark:hover:text-indigo-200`
-        "
-      >
-        /about
-      </router-link>
     </div>
   </div>
 </template>
