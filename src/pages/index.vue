@@ -26,7 +26,7 @@
     </section>
     <section id="what-i-do" class="flex flex-col gap-4">
       <div class="flex gap-2">
-        <IconThoughtBubble class="my-auto text-3xl" />
+        <IconThoughtBubble class="my-auto hidden text-3xl md:block" />
         <h2 class="my-auto text-4xl font-semibold">What do I do?</h2>
       </div>
       <p class="text-gray-700 dark:text-gray-300">
@@ -39,7 +39,7 @@
     </section>
     <section id="technologies" class="flex flex-col gap-4">
       <div class="flex gap-2">
-        <IconAtomVariant class="my-auto text-3xl" />
+        <IconAtomVariant class="my-auto hidden text-3xl md:block" />
         <h2 class="my-auto text-4xl font-semibold">Technologies</h2>
       </div>
       <p class="text-gray-700 dark:text-gray-300">
@@ -47,7 +47,7 @@
         increase the quality of my code. Below is a list of technologies and
         languages I've had experience with in the past and/or currently use.
       </p>
-      <div class="grid justify-between gap-4 md:grid-cols-4">
+      <div class="grid justify-between gap-4 sm:grid-cols-2 md:grid-cols-4">
         <div class="flex gap-2 transition hover:text-orange-500">
           <IconLanguageHtml5 class="my-auto text-xl" />
           <span class="my-auto text-gray-800 dark:text-gray-200">HTML</span>
@@ -110,7 +110,7 @@
     </section>
     <section id="projects" class="flex flex-col gap-4">
       <div class="flex gap-2">
-        <IconTools class="my-auto text-3xl" />
+        <IconTools class="my-auto hidden text-3xl md:block" />
         <h2 class="my-auto text-4xl font-semibold">My projects</h2>
       </div>
       <p class="text-gray-700 dark:text-gray-300">
@@ -121,7 +121,7 @@
       <div class="grid justify-between gap-4 md:grid-cols-2">
         <a
           href="https://github.com/pnxl/website"
-          class="flex h-40 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+          class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400 md:h-40"
         >
           <div class="flex flex-col gap-2">
             <h4 class="text-lg font-semibold">website</h4>
@@ -141,7 +141,7 @@
         </a>
         <a
           href="https://github.com/trobonox/pokaimon"
-          class="flex h-40 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+          class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400 md:h-40"
         >
           <div class="flex flex-col gap-2">
             <h4 class="text-lg font-semibold">pokaimon</h4>
@@ -161,7 +161,7 @@
         </a>
         <a
           href="https://github.com/pnxl/d.js"
-          class="flex h-40 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+          class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400 md:h-40"
         >
           <div class="flex flex-col gap-2">
             <h4 class="text-lg font-semibold">d.js</h4>
@@ -178,7 +178,7 @@
         </a>
         <a
           href="https://github.com/pnxl/start"
-          class="flex h-40 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+          class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400 md:h-40"
         >
           <div class="flex flex-col gap-2">
             <div class="flex flex-col gap-1">
