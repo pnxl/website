@@ -121,11 +121,11 @@
       <div class="grid justify-between gap-4 md:grid-cols-2">
         <a
           href="https://github.com/pnxl/website"
-          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+          class="flex h-40 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
         >
           <div class="flex flex-col gap-2">
-            <h4 class="font-semibold">website</h4>
-            <p class="text-ellipsis text-sm">
+            <h4 class="text-lg font-semibold">website</h4>
+            <p class="text-ellipsis">
               This repository contains this website, the one you're currently
               viewing!
             </p>
@@ -141,11 +141,11 @@
         </a>
         <a
           href="https://github.com/trobonox/pokaimon"
-          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+          class="flex h-40 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
         >
           <div class="flex flex-col gap-2">
-            <h4 class="font-semibold">pokaimon</h4>
-            <p class="text-ellipsis text-sm">
+            <h4 class="text-lg font-semibold">pokaimon</h4>
+            <p class="text-ellipsis">
               Genshin Impact themed collectible game with mechanics similar to
               Pokemon.
             </p>
@@ -161,11 +161,11 @@
         </a>
         <a
           href="https://github.com/pnxl/d.js"
-          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+          class="flex h-40 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
         >
           <div class="flex flex-col gap-2">
-            <h4 class="font-semibold">d.js</h4>
-            <p class="text-ellipsis text-sm">template for d.js bots</p>
+            <h4 class="text-lg font-semibold">d.js</h4>
+            <p class="text-ellipsis">template for d.js bots</p>
           </div>
           <div class="flex gap-4">
             <div class="flex gap-2">
@@ -178,11 +178,11 @@
         </a>
         <a
           href="https://github.com/pnxl/start"
-          class="flex h-36 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
+          class="flex h-40 flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 transition hover:scale-[1.025] hover:border-indigo-500 dark:border-gray-700 dark:hover:border-indigo-400"
         >
           <div class="flex flex-col gap-2">
             <div class="flex flex-col gap-1">
-              <h4 class="font-semibold">start</h4>
+              <h4 class="text-lg font-semibold">start</h4>
               <div class="flex gap-1">
                 <IconSourceBranch
                   class="my-auto text-sm text-gray-600 dark:text-gray-400"
@@ -192,9 +192,7 @@
                 </p>
               </div>
             </div>
-            <p class="text-ellipsis text-sm">
-              custom startpage with useful links
-            </p>
+            <p class="text-ellipsis">custom startpage with useful links</p>
           </div>
           <div class="flex gap-4">
             <div class="flex gap-2">
