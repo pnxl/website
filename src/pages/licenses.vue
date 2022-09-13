@@ -14,7 +14,7 @@
       </p>
     </section>
     <section id="libraries" class="flex flex-col gap-4">
-      <h2 class="my-auto w-fit text-4xl font-bold">License Notices</h2>
+      <h2 class="my-auto w-fit text-4xl font-semibold">License Notices</h2>
       <div class="grid gap-4 md:grid-cols-2">
         <div
           class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 dark:border-gray-700"
@@ -55,7 +55,7 @@
       </div>
     </section>
     <section id="artwork" class="flex flex-col gap-4">
-      <h2 class="my-auto w-fit text-4xl font-bold">Artwork Credits</h2>
+      <h2 class="my-auto w-fit text-4xl font-semibold">Artwork Credits</h2>
       <div class="grid gap-4 md:grid-cols-2">
         <div
           class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-400 p-4 dark:border-gray-700"
