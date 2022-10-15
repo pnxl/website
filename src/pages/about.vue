@@ -19,7 +19,7 @@
         </figure>
       </div>
 
-      <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-8">
         <p class="font-medium text-gray-700 dark:text-gray-300">
           Hey there! I'm a full-stack engineer from Indonesia. I care about
           almost everything that involves technology; from designing and
