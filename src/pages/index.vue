@@ -1,7 +1,7 @@
 <template>
   <Navbar />
   <main class="flex flex-col gap-16">
-    <section id="introduction" class="flex flex-col gap-4">
+    <section id="introduction" class="flex flex-col gap-8">
       <div class="flex flex-col gap-2">
         <h3 class="text-3xl font-semibold">{{ randomiseGreeting() }} 👋🏼</h3>
         <h1
@@ -24,7 +24,7 @@
         <IconArrowRight class="my-auto text-sm" />
       </router-link>
     </section>
-    <section id="what-i-do" class="flex flex-col gap-4">
+    <section id="what-i-do" class="flex flex-col gap-8">
       <div class="flex gap-2">
         <IconThoughtBubble class="my-auto hidden text-3xl md:block" />
         <h2 class="my-auto text-4xl font-semibold">What do I do?</h2>
@@ -37,7 +37,7 @@
         further understand how or why the technology around us works.
       </p>
     </section>
-    <section id="technologies" class="flex flex-col gap-4">
+    <section id="technologies" class="flex flex-col gap-8">
       <div class="flex gap-2">
         <IconAtomVariant class="my-auto hidden text-3xl md:block" />
         <h2 class="my-auto text-4xl font-semibold">Technologies</h2>
@@ -108,7 +108,7 @@
         </div>
       </div>
     </section>
-    <section id="projects" class="flex flex-col gap-4">
+    <section id="projects" class="flex flex-col gap-8">
       <div class="flex gap-2">
         <IconTools class="my-auto hidden text-3xl md:block" />
         <h2 class="my-auto text-4xl font-semibold">My projects</h2>
