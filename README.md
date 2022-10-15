@@ -1,14 +1,11 @@
-# vue-template
-a clean template for your vue projects, featuring tailwindcss and a pages directory
+# pnxl/website
+my personal website, built with vue 3 and vite.
 
-## does this even need a readme?
-that's pretty much it, a simple vue template, featuring tailwindcss and vite-plugin-pages
-
-### tailwindcss
-tailwindcss handles your styling and works alongside postcss, recommended to use tailwindcss intellisense and prettier
-
-### vite-plugin-pages
-handles all routing in the `/pages` directory, so you don't have to. say goodbye to manual routing!
+## tech stack
+- vue 3
+- vite
+- tailwindcss
+- vite-plugin-pages
 
 ## recommended ide setup:
 ### visual studio code
