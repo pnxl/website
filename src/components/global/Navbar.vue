@@ -21,6 +21,12 @@
       >
         ~/about
       </router-link>
+      <a
+        href="https://notes.pnxl.tech"
+        class="underline transition hover:text-indigo-700 dark:hover:text-indigo-200"
+      >
+        ../notes
+    </a>
     </div>
   </div>
 </template>
