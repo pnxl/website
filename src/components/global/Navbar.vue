@@ -5,8 +5,8 @@
         to="/"
         :class="
           $route.path === '/'
-            ? `cursor-default font-semibold text-indigo-600 dark:text-indigo-300`
-            : `underline transition hover:text-indigo-700 dark:hover:text-indigo-200`
+            ? `cursor-default font-semibold text-indigo-300`
+            : `underline transition hover:text-indigo-200`
         "
       >
         ~/index
@@ -15,15 +15,15 @@
         to="/about"
         :class="
           $route.path.startsWith('/about')
-            ? `cursor-default font-semibold text-indigo-600 dark:text-indigo-300`
-            : `underline transition hover:text-indigo-700 dark:hover:text-indigo-200`
+            ? `cursor-default font-semibold text-indigo-300`
+            : `underline transition hover:text-indigo-200`
         "
       >
         ~/about
       </router-link>
       <a
         href="https://notes.pnxl.tech"
-        class="underline transition hover:text-indigo-700 dark:hover:text-indigo-200"
+        class="underline transition hover:text-indigo-200"
       >
         ../notes
     </a>
