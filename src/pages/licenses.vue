@@ -17,36 +17,60 @@
       <h2 class="my-auto w-fit text-4xl font-semibold">License Notices</h2>
       <div class="grid gap-4 md:grid-cols-2">
         <div
-          class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-700"
+          class="
+            flex flex-col
+            justify-between
+            gap-4
+            rounded-xl
+            border-2 border-gray-700
+          "
         >
-          <div class="flex flex-col gap-1">
+          <div class="flex flex-col gap-1 p-4">
             <h4 class="text-lg font-semibold">Vue</h4>
             <p>© 2013-present Yuxi (Evan) You</p>
             <p>Licensed under the MIT license.</p>
           </div>
         </div>
         <div
-          class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-700"
+          class="
+            flex flex-col
+            justify-between
+            gap-4
+            rounded-xl
+            border-2 border-gray-700
+          "
         >
-          <div class="flex flex-col gap-1">
+          <div class="flex flex-col gap-1 p-4">
             <h4 class="text-lg font-semibold">vue-router</h4>
             <p>© 2013-present Yuxi (Evan) You</p>
             <p>Licensed under the MIT license.</p>
           </div>
         </div>
         <div
-          class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-700"
+          class="
+            flex flex-col
+            justify-between
+            gap-4
+            rounded-xl
+            border-2 border-gray-700
+          "
         >
-          <div class="flex flex-col gap-1">
+          <div class="flex flex-col gap-1 p-4">
             <h4 class="text-lg font-semibold">Tailwind CSS</h4>
             <p>© Tailwind Labs, Inc.</p>
             <p>Licensed under the MIT license.</p>
           </div>
         </div>
         <div
-          class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-700"
+          class="
+            flex flex-col
+            justify-between
+            gap-4
+            rounded-xl
+            border-2 border-gray-700
+          "
         >
-          <div class="flex flex-col gap-1">
+          <div class="flex flex-col gap-1 p-4">
             <h4 class="text-lg font-semibold">Unplugin Icons</h4>
             <p>© 2020 Anthony Fu</p>
             <p>Licensed under the MIT license.</p>
@@ -58,9 +82,15 @@
       <h2 class="my-auto w-fit text-4xl font-semibold">Artwork Credits</h2>
       <div class="grid gap-4 md:grid-cols-2">
         <div
-          class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-700"
+          class="
+            flex flex-col
+            justify-between
+            gap-4
+            rounded-xl
+            border-2 border-gray-700
+          "
         >
-          <div class="flex flex-col gap-1">
+          <div class="flex flex-col gap-1 p-4">
             <h4 class="text-lg font-semibold">Material Design Icons</h4>
             <p>© Google, Inc.</p>
             <p>Licensed under the Apache 2.0 license.</p>
