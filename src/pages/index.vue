@@ -11,7 +11,7 @@
         </h1>
       </div>
       <p class="font-medium text-gray-300">
-        Welcome to my small cozy corner of the internet! I'm a 13-year-old guy
+        Welcome to my small cozy corner of the internet! I'm a 14-year-old guy
         based in Indonesia, and is a self-taught developer. Currently, pursuing
         full-stack development. Make yourself comfortable, and I hope you enjoy
         your stay!
@@ -33,7 +33,7 @@
         I like everything that involves technology; from designing and
         programming different kinds software, to understanding how the internet
         works together, to cybersecurity, systems, and so much more. I strive to
-        learn more about these things every day, and utilize my knowledge to
+        learn more about these things every day, and utilise my knowledge to
         further understand how or why the technology around us works.
       </p>
     </section>
@@ -58,15 +58,11 @@
         </div>
         <div class="flex gap-2 transition hover:text-yellow-500">
           <IconLanguageJavascript class="my-auto text-xl" />
-          <span class="my-auto text-gray-200"
-            >JavaScript</span
-          >
+          <span class="my-auto text-gray-200">JavaScript</span>
         </div>
         <div class="flex gap-2 transition hover:text-blue-500">
           <IconLanguageTypescript class="my-auto text-xl" />
-          <span class="my-auto text-gray-200"
-            >TypeScript</span
-          >
+          <span class="my-auto text-gray-200">TypeScript</span>
         </div>
         <div class="flex gap-2 transition hover:text-lime-500">
           <IconNodejs class="my-auto text-xl" />
@@ -74,9 +70,7 @@
         </div>
         <div class="flex gap-2 transition hover:text-teal-500">
           <IconTailwind class="my-auto text-xl" />
-          <span class="my-auto text-gray-200"
-            >Tailwind CSS</span
-          >
+          <span class="my-auto text-gray-200">Tailwind CSS</span>
         </div>
         <div class="flex gap-2 transition hover:text-sky-500">
           <IconReact class="my-auto text-xl" />
@@ -90,17 +84,13 @@
           <IconLanguagePython class="my-auto text-xl" />
           <span class="my-auto text-gray-200">Python</span>
         </div>
-        <div
-          class="flex gap-2 transition hover:text-slate-400"
-        >
+        <div class="flex gap-2 transition hover:text-slate-400">
           <IconBash class="my-auto text-xl" />
           <span class="my-auto text-gray-200">Bash</span>
         </div>
         <div class="flex gap-2 transition hover:text-cyan-500">
           <IconPowershell class="my-auto text-xl" />
-          <span class="my-auto text-gray-200"
-            >PowerShell</span
-          >
+          <span class="my-auto text-gray-200">PowerShell</span>
         </div>
         <div class="flex gap-2 transition hover:text-orange-600">
           <IconGit class="my-auto text-xl" />
@@ -121,7 +111,7 @@
       <div class="grid justify-between gap-4 md:grid-cols-2">
         <a
           href="https://github.com/pnxl/website"
-          class="flex flex-col justify-between gap-4 rounded-xl border-2 p-4 transition hover:scale-[1.025] border-gray-700 hover:border-indigo-400 md:h-40"
+          class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-700 p-4 transition hover:scale-[1.025] hover:border-indigo-400 md:h-40"
         >
           <div class="flex flex-col gap-2">
             <h4 class="text-lg font-semibold">website</h4>
@@ -141,7 +131,7 @@
         </a>
         <a
           href="https://github.com/trobonox/pokaimon"
-          class="flex flex-col justify-between gap-4 rounded-xl border-2 p-4 transition hover:scale-[1.025] border-gray-700 hover:border-indigo-400 md:h-40"
+          class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-700 p-4 transition hover:scale-[1.025] hover:border-indigo-400 md:h-40"
         >
           <div class="flex flex-col gap-2">
             <h4 class="text-lg font-semibold">pokaimon</h4>
@@ -161,7 +151,7 @@
         </a>
         <a
           href="https://github.com/pnxl/d.js"
-          class="flex flex-col justify-between gap-4 rounded-xl border-2 p-4 transition hover:scale-[1.025] border-gray-700 hover:border-indigo-400 md:h-40"
+          class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-700 p-4 transition hover:scale-[1.025] hover:border-indigo-400 md:h-40"
         >
           <div class="flex flex-col gap-2">
             <h4 class="text-lg font-semibold">d.js</h4>
@@ -178,15 +168,13 @@
         </a>
         <a
           href="https://github.com/pnxl/start"
-          class="flex flex-col justify-between gap-4 rounded-xl border-2 p-4 transition hover:scale-[1.025] border-gray-700 hover:border-indigo-400 md:h-40"
+          class="flex flex-col justify-between gap-4 rounded-xl border-2 border-gray-700 p-4 transition hover:scale-[1.025] hover:border-indigo-400 md:h-40"
         >
           <div class="flex flex-col gap-2">
             <div class="flex flex-col gap-1">
               <h4 class="text-lg font-semibold">start</h4>
               <div class="flex gap-1">
-                <IconSourceBranch
-                  class="my-auto text-sm text-gray-400"
-                />
+                <IconSourceBranch class="my-auto text-sm text-gray-400" />
                 <p class="my-auto text-sm text-gray-400">
                   Forked from trobonox/startpage
                 </p>
