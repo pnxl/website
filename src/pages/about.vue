@@ -12,10 +12,10 @@
         >
           <img
             src="@/assets/images/pages/about/banner.png"
-            class="aspect-[21/9] rounded-xl object-cover"
+            class="aspect-[21/9] rounded-xl object-cover object-top"
             alt="A trip to Central Park with some friends"
           />
-          <figcaption>A trip to Central Park with some friends</figcaption>
+          <figcaption>A picture of me trying out a car at a mall</figcaption>
         </figure>
       </div>
 
