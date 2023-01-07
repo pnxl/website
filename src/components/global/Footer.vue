@@ -14,7 +14,7 @@
         </div>
         <span
           class="text-center text-sm text-gray-400 md:text-left"
-          >Copyright © 2022 Pix3l_</span
+          >Copyright © 2023 Pix3l_</span
         >
       </div>
       <div class="flex flex-col gap-1 text-center md:text-right">
